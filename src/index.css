@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "tailwindcss";
+
+
+
+
+:root {
+    --custom-orange: #F88623;
+    --custom-red: #E73131;
+    --custom-blue: #2F5DF5;
+  }
+  
+  /* Extend Tailwind with Background Color Utilities */
+  @layer utilities {
+    .bg-custom-orange {
+      background-color: var(--custom-orange);
+    }
+  
+    .bg-custom-red {
+      background-color: var(--custom-red);
+    }
+  
+    .bg-custom-blue {
+      background-color: var(--custom-blue);
+    }
+    .font-poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+      .font-inter{
+        font-family:'Inter',sans-serif;
+        font-weight: 400;
+      }
+      .font-outfit{
+        font-family: "Outfit", sans-serif;
+        font-weight:800;
+      }
+      .font-Tektur{
+        font-family: "Tektur", sans-serif;
+        font-weight:200;
+      }
+      .font-ubuntu{
+        font-family: "Ubuntu", sans-serif;
+        font-weight:200;
+      }
+      
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+      
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+  
+
+  /* @layer base {
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  } */
