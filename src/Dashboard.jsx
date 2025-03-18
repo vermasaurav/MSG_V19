@@ -1,5 +1,8 @@
 import React from 'react'
-import websiteImage from './assets/websiteimage.png'
+import websiteImage from './assets/websiteimage.png';
+import MetaBadge from './assets/metaBadge.png';
+import WhatsApp from './assets/whatsApp.png';
+import Companies from './assets/companies.png';
 
 const Dashboard = () => {
   return (
@@ -13,10 +16,32 @@ const Dashboard = () => {
     </div>
 
     <div>
-    <img src={websiteImage} className='h-[20rem] w-[60rem]' alt='website_image'/>
+    <img src={websiteImage} className='h-[20rem] w-[60rem] -mt-10' alt='website_image'/>
     </div>
     </div>
     </div>
+
+
+
+    <div className='flex justify-center -mt-8 h-[16vh]'>
+    <div className='flex  w-[60%] justify-around items-center bg-custom-green rounded-2xl'>
+    <div className='font-inria-sans text-2xl font-semibold text-white text-center'>Powered By Official <br/> WhatsApp Business API {<img src={WhatsApp} className='inline h-5 w-5'/>}</div>
+    <div> <img src={MetaBadge} className='h-20 w-30'/> </div>
+    </div>   
+    </div>
+
+
+    <div className='flex justify-center items-center mt-8'>
+    <div className='text-orange-600 font-inria-sans text-3xl font-semibold'>JOIN OUR 1000+ HAPPY CUSTOMERS</div>
+    </div>
+
+
+    <div className='flex justify-center items-center '>
+    <div className='overflow-hidden  rounded-2xl  w-[80%]'>
+    <div><img src={Companies} className=' animate-marquee'/></div>
+     
+    </div></div>
+
     
     
     
