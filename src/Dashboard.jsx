@@ -7,16 +7,16 @@ import Companies from './assets/companies.png';
 const Dashboard = () => {
   return (
     <>
-    <div className=' bg-gradient-to-tr from-blue-700  to-black h-[60vh] flex justify-center items-center'>
-    <div className=' flex justify-between items-center w-[80%]'>
+    <div className=' bg-gradient-to-tr from-blue-700  to-black h-[60vh] flex justify-center items-center '>
+    <div className=' flex justify-between items-center w-[80%]  '>
     <div className=' w-[100rem] '>
-    <div className='text-5xl  font-outfit text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-purple-900'>Website Development</div>
+    <div className='md:text-5xl sm:text-4xl font-outfit text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-purple-900'>Website Development</div>
     <br/>
-    <div className='text-md text-white font-ubuntu'>MSG24x7 is a dynamic digital marketing company that specializes in {<br/>} delivering innovative online solutions, including expert website  {<br/>} development services. We create high-performing, user-friendly, and  {<br/>} visually appealing websites tailored to enhance brand presence and {<br/>} drive business growth.</div>
+    <div className='md:text-md text-white font-ubuntu sm:text-xs '>MSG24x7 is a dynamic digital marketing company that specializes in {<br/>} delivering innovative online solutions, including expert website  {<br/>} development services. We create high-performing, user-friendly, and  {<br/>} visually appealing websites tailored to enhance brand presence and {<br/>} drive business growth.</div>
     </div>
 
     <div>
-    <img src={websiteImage} className='h-[20rem] w-[60rem] -mt-10' alt='website_image'/>
+    <img src={websiteImage} className='lg:h-[18rem] w-[60rem] md:h-[10rem]  ' alt='website_image'/>
     </div>
     </div>
     </div>
@@ -31,8 +31,8 @@ const Dashboard = () => {
     </div>
 
 
-    <div className='flex justify-center items-center mt-8'>
-    <div className='text-orange-600 font-inria-sans text-3xl font-semibold'>JOIN OUR 1000+ HAPPY CUSTOMERS</div>
+    <div className='flex justify-center items-center mt-8 '>
+    <div className='sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-orange-700 via-orange-500 to-orange-700 font-inria-sans md:text-5xl font-semibold'>JOIN OUR 1000+ HAPPY CUSTOMERS</div>
     </div>
 
 
