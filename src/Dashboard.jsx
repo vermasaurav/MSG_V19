@@ -10,9 +10,9 @@ const Dashboard = () => {
     <div className=' bg-gradient-to-tr from-blue-700  to-black h-[60vh] flex justify-center items-center '>
     <div className=' flex justify-between items-center w-[80%]  '>
     <div className=' w-[100rem] '>
-    <div className='md:text-5xl sm:text-4xl font-outfit text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-purple-900'>Website Development</div>
+    <div className='md:text-5xl sm:text-3xl max-sm:text-3xl font-outfit text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-white to-purple-900'>Website Development</div>
     <br/>
-    <div className='md:text-md text-white font-ubuntu sm:text-xs '>MSG24x7 is a dynamic digital marketing company that specializes in {<br/>} delivering innovative online solutions, including expert website  {<br/>} development services. We create high-performing, user-friendly, and  {<br/>} visually appealing websites tailored to enhance brand presence and {<br/>} drive business growth.</div>
+    <div className='md:text-md sm:w-[20rem] md:w-[30rem] text-white text-justify font-ubuntu sm:text-xs '>MSG24x7 is a dynamic digital marketing company that specializes in delivering innovative online solutions, including expert website  development services. We create high-performing, user-friendly, and  visually appealing websites tailored to enhance brand presence and drive business growth.</div>
     </div>
 
     <div>

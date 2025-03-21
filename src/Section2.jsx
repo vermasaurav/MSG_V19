@@ -70,8 +70,8 @@ const Section2 = () => {
 
   return (
     <>
-    <div className='h-auto bg-gradient-to-br from-green-500 via-green-300 to-orange-300 '>
-    <div className='flex justify-center items-center'>
+    <div className='h-auto  bg-gradient-to-br from-green-500 via-green-300 to-orange-300 '>
+    <div className='flex justify-center items-center '>
     {/* <div className='text-center inline-block bg-gradient-to-br from-green-900 via-green-600 to-green-900 p-2 mt-3 rounded-lg font-inria-sans text-2xl text-white font-bold border-2 border-green-700  w-[20rem] '>WhatsApp Business API</div> */}
     <div class="  p-4 text-center rounded-md">
     <h3 className="text-transparent  bg-gradient-to-br from-green-200 via-green-300 to-green-100 bg-clip-text font-semibold md:text-[5rem] sm:text-[3rem] drop-shadow-lg shadow-green-900 w-fit " style={{fontFamily:"'manrope', sans-serif"}}>
@@ -82,15 +82,15 @@ const Section2 = () => {
 
     
     </div>
-    <div className='flex justify-center items-center '>
-    <div className='flex sm:flex-col md:flex-row justify-around items-center w-[80%]'>
-    <div className='flex flex-col justify-between items-center'>
-    <div className='flex w-[25rem] justify-around'>
+    <div className='flex justify-center items-center'>
+    <div className='flex max-sm:flex-col sm:flex-col md:flex-row justify-around items-center w-[80%]  '>
+    <div className='flex flex-col justify-between items-center '>
+    <div className='flex w-[60%] justify-around '>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-xl text-sm border-2 border-white w-[8rem]' onClick={() => setCategory('Marketing')}>Marketing</button>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-xl text-sm border-2 border-white w-[8rem]'  onClick={() => setCategory('Sales')}>Sales</button>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-xl text-sm border-2 border-white w-[8rem]'  onClick={() => setCategory('Support')}>Support</button>
     </div>
-    <div className='h-[22rem] w-[25rem]  bg-white mt-2 mb-2 rounded-md px-5'>
+    <div className='h-auto w-[60%]  bg-white mt-2 mb-2 rounded-md px-5'>
 
    {content[category].map((item, index) => (
                     <div key={index}>
@@ -101,7 +101,7 @@ const Section2 = () => {
     </div>
     <div><button className='bg-green-800 text-white font-inter p-1 px-2 rounded-md border-b-4 border-r-4 border-green-500'>Chat on WhatsApp</button></div>
     </div>
-    <div><img src={BannerManisha} className='w-[25rem] h-[25rem]' data-aos="zoom-in"/></div>
+    <div><img src={BannerManisha} className='w-[25rem] h-[25rem] ' data-aos="zoom-in"/></div>
     </div>
     </div>
     </div>

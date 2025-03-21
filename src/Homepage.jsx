@@ -9,6 +9,7 @@ import Section6 from './Section6';
 import Section7 from './Section7';
 import Section8 from './Section8';
 import News from './News';
+import Footer from './Footer'
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
     <Section7/>
     <News/>
     <Section8/>
+    <Footer/>
     </>
   )
 }

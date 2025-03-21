@@ -11,11 +11,11 @@ const Section3 = () => {
         AOS.init({duration:1300});
       }, []);
   return (
-    <div className="md:h-[75vh] sm:h-[45rem] w-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${BackgroundImage1})` }}>
+    <div className="w-full sm:h-[50rem] max-sm:h-[50rem] bg-cover bg-center bg-no-repeat border-2 border-green-600" style={{ backgroundImage: `url(${BackgroundImage1})` }}>
 
-    <div className='w-4/5 mx-auto flex justify-between items-center h-[75vh] sm:flex-col md:flex-row '>
+    <div className='w-4/5 mx-auto flex justify-between items-center h-screen max-sm:flex-col sm:flex-col md:flex-row border-2 border-black'>
 
-    <div className=' w-[30rem] bg-white p-5 rounded-2xl sm:mt-5 md:mt-0'>
+    <div className=' md:w-[30rem] max-sm:h-auto bg-white p-5 rounded-2xl sm:mt-5 md:mt-0 border-2 border-black'>
     <div className='font-bold text-4xl font-outfit '>META For Your Business</div>
     <div className='font-bold mt-3 font-poppins'>MSG24x7 is an Official Meta Business Partner (BSP)</div>
     <div className='font-semibold mt-3 font-ubuntu'>MSG24x7 Communications provides you with solutions which you can use to build active engagement with your customers on a daily basis . </div>

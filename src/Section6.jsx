@@ -96,15 +96,15 @@ const Section2 = () => {
 </div>
     </div>
     <div className='flex justify-center items-center mt-10'>
-    <div className='flex sm:flex-col md:flex-row justify-around items-center w-[80%] mt-5'>
+    <div className='flex max-sm:flex-col sm:flex-col md:flex-row justify-around items-center w-[80%] mt-5'>
     <div className='flex flex-col justify-between items-center'>
-    <div className='flex w-[35rem] justify-between'>
+    <div className='flex w-[35rem] max-sm:w-[20rem] justify-between'>
     <button className='border-2 border-white bg-gradient-to-tr from-orange-700  to-orange-600 text-white font-ubuntu py-2  rounded-md text-sm w-[8rem] ' onClick={() => setCategory('IVR')}>IVR</button>
     <button className='border-2 border-white bg-gradient-to-tr from-orange-700  to-orange-600 text-white font-ubuntu py-2 rounded-md text-sm w-[8rem] '  onClick={() => setCategory('Missed')}>Missed Call</button>
     <button className='border-2 border-white bg-gradient-to-tr from-orange-700  to-orange-600 text-white font-ubuntu py-2 rounded-md text-sm w-[8rem]'  onClick={() => setCategory('Toll')}>Toll Free</button>
     <button className='border-2 border-white bg-gradient-to-tr from-orange-700  to-orange-600 text-white font-ubuntu py-2 rounded-md text-sm w-[8rem]'  onClick={() => setCategory('Voice')}>Voice Broadcast</button>
     </div>
-    <div className='h-[22rem] w-[35rem] bg-white mt-2 mb-2 rounded-md px-5'>
+    <div className='h-[22rem] w-[35rem] max-sm:w-[20rem] bg-white mt-2 mb-2 rounded-md px-5'>
 
    {content[category].map((item, index) => (
                     <div key={index}>

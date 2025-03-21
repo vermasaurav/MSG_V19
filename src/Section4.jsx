@@ -81,14 +81,14 @@ const Section2 = () => {
 </div>
     </div>
     <div className='flex justify-center items-center'>
-    <div className='flex sm:flex-col md:flex-row justify-around items-center w-[80%] my-5'>
+    <div className='flex max-sm:flex-col sm:flex-col md:flex-row justify-around items-center w-[80%] my-5'>
     <div className='flex flex-col justify-between items-center'>
     {/* <div className='flex w-[20rem] justify-between'>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-md text-sm border-2 border-white' onClick={() => setCategory('Marketing')}>Marketing</button>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-md text-sm border-2 border-white'  onClick={() => setCategory('Sales')}>Sales</button>
     <button className='bg-gradient-to-tr from-indigo-700  to-blue-600 text-white font-inter p-1 px-2 rounded-md text-sm border-2 border-white'  onClick={() => setCategory('Support')}>Support</button>
     </div> */}
-    <div className='h-[22rem] w-[25rem] bg-white mt-2 mb-2 rounded-md px-5'>
+    <div className='h-[22rem] w-[25rem] max-sm:w-[20rem] max-sm:h-[25rem] bg-white mt-2 mb-2 rounded-md px-5'>
 
    {content[category].map((item, index) => (
                     <div key={index}>

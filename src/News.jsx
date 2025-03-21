@@ -4,7 +4,7 @@ import Yug from './assets/yugpatrika.png';
 
 const News = () => {
   return (
-    <div className='h-[70vh] '>
+    <div className='h-auto my-5'>
         <div className='flex flex-col  justify-center items-center space-y-5'>
         <div className='font-bold font-outfit text-red-500 text-4xl mt-5'>
         Recent News Coverage
@@ -17,9 +17,9 @@ const News = () => {
 
 
 
-        <div className=' h-[50vh] items-center flex justify-center'>
+        <div className=' h-auto items-center flex  justify-center my-5'>
 
-       <div className='w-[80%] h-[50vh]  flex justify-around items-center'>
+       <div className='w-[80%] h-auto  flex sm:flex-col md:flex-row justify-around items-center'>
 
     <div>
         <img src={NewsImage} className='w-[20rem] h-[15rem] '/>
